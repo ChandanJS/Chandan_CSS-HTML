@@ -1,0 +1,65 @@
+body{
+    overflow: hidden;
+   }
+   .content {
+        position: absolute;
+        top: 0%;
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    
+    }
+    video{
+        position: absolute;
+    }
+    div{
+        position: absolute;
+        top:30%;
+        left: 45%;
+        border: 20px rgb(247, 244, 240);
+        padding: 10px;
+
+
+    }
+    div h1{
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(252, 252, 251);
+        font-size: 30px;
+        font-style: normal;
+    }
+
+    input{
+        width: 300px;
+        min-width: 100px;
+        border: none;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: whitesmoke;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    input:focus{
+        outline: none;
+        color: white;
+        background-color: rgba(70, 131, 180, 0.35);
+    }
+    button{
+        margin: 20px;
+        width: 80px;
+        height: 20px;
+        border-radius: 10px;
+        height: 30px;
+        color: white;
+        font-size: 18px;
+        border: none;
+        background-color: rgb(76, 130, 143);
+    }
+    button:hover{
+        cursor:grab;
+        border: 10px;
+        background-color: rgba(241, 195, 11, 0.644);
+    }
+   
+   
